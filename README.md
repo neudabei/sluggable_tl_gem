@@ -1,7 +1,10 @@
 ### About
 
-This gem allows you to build pretty 'sluggish' URLs for your Ruby on Rails apps.
-So instead of `/1/post/2` your domains will read `/username/post-title`.
+- This gem allows you to build pretty 'sluggish' URLs for your Ruby on Rails apps.
+So instead of `/1/post/2` your domains will read `/username/post-title`.  
+- It uses REGex to create URLs from values in your table. If you have a post title called "asdj28)8/"=!=P=""!W;:MM" it will convert this to "asdj28-8-p-w-mm" to be URL compatible. "yet another post" will simply be converted to "yet-another-post".  
+- It also takes care of duplicate objects with the same name and appends "-2"  
+- The code of this gem is simple and so is setting it up.  
 
 
 ### Installation

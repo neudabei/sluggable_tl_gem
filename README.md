@@ -14,7 +14,7 @@ So instead of `/1/post/2` your domains will read `/username/post-title`.
 ### Configuration  
 
 1. Run a migration to create an extra column called `slug` formatted as string for all elements that require sluggish URLs.  
-2. In your respective model (e.g. the user model) include `include Sluggable`  
+2. In your respective model (e.g. the user model) `include Sluggable`  
 3. Also in your model reference the column that you want to use to create slugs (e.g. `username` column in the user table or `title` column in the post model)  
 
 
@@ -54,4 +54,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE.  
+  
+*This project was created for a class at [gotealeaf.com](http://www.gotealeaf.com* 
